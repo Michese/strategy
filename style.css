@@ -1,0 +1,55 @@
+.timer {
+    min-height: 400px;
+    width: 400px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.timer__display {
+    display: block;
+    background-color: rgba(24, 47, 63, 1);
+    color: rgba(0, 223, 125, 1);
+    text-align: center;
+    font-size: 54px;
+    border-radius: 10px 10px 0 0;
+}
+
+.timer__manager {
+    flex: auto;
+    font-size: 30px;
+    background-color: transparent;
+}
+
+.timer__manager:disabled {
+    cursor: default;
+    background-color: #ccc;
+}
+
+.timer__switch {
+    flex: auto;
+    background-color: transparent;
+}
+
+.timer__switch:disabled {
+    border: 1px solid black;
+    border-bottom: transparent;
+    color: black;
+}
+
+.timer__inner {
+    padding: 5px;
+}
+
+.timer__inputs {
+    justify-content: space-around;
+}
+
+.timer__input {
+    flex: auto;
+    max-width: 100px;
+}
+
+.timer__select {
+    cursor: pointer;
+}
